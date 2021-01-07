@@ -64,7 +64,8 @@
         "moduleResolution": "node",
         "baseUrl": "./src",
         "paths": {
-            "~/*": ["src/*"],
+            "~/*": ["*"],
+            "~": ["index"],
         },
         "allowSyntheticDefaultImports": true
     }
